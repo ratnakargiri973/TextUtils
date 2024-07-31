@@ -1,0 +1,23 @@
+.about{
+    width: 100%;
+    height: 85.5vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.about h2{
+    padding-top: 2rem;
+}
+.aboutContent{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.aboutContent button{
+    background-color: rgb(198, 78, 102);
+}

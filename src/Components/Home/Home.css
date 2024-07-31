@@ -1,0 +1,54 @@
+.home{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Hero{
+    padding-top: 2rem;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+    flex-direction: column;
+    padding-bottom: 2rem;
+}
+.Hero h1{
+    width: 100%;
+    text-align: center;
+}
+.Hero textarea{
+    border: none;
+    outline: none;
+    background-color: rgb(176, 224, 222);
+    border-radius: 5px;
+    width: 100%;
+    padding: 0.5rem;
+}
+.Btns{
+ display: flex;
+ justify-content: flex-start;
+ gap: 1rem;
+}
+.Btns button{
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+.Btns button:hover{
+   box-shadow: 0 4px 10px rgb(93, 92, 92);
+}
+.Btns button:active{
+    transform: scale(0.96);
+}
+.summary{
+    line-height: 2rem;
+}
+.summary h1{
+    padding-bottom: 1rem;
+}
